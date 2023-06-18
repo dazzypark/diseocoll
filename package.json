@@ -1,0 +1,36 @@
+{
+  "name": "dsc",
+  "version": "1.0.0",
+  "private": true,
+  "scripts": {
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start",
+    "lint": "next lint",
+    "upgradef": "yarn upgrade && syncyarnlock -s -k && yarn",
+    "buildf": "docker build -f Dockerfile -t diseocoll.com:latest . && docker save diseocoll.com -o diseocoll.com.tar"
+  },
+  "dependencies": {
+    "@fortawesome/fontawesome-svg-core": "^6.4.0",
+    "@fortawesome/free-solid-svg-icons": "^6.4.0",
+    "@fortawesome/react-fontawesome": "^0.2.0",
+    "cookie": "^0.5.0",
+    "discord-bitfield-calculator": "^1.2.0",
+    "dompurify": "^3.0.1",
+    "eslint": "8.34.0",
+    "eslint-config-next": "13.2.1",
+    "next": "13.2.1",
+    "next-auth": "^4.21.1",
+    "next-sitemap": "^4.0.7",
+    "node-cache": "^5.1.2",
+    "react": "18.2.0",
+    "react-cookie": "^4.1.1",
+    "react-dom": "^18.2.0",
+    "react-google-recaptcha": "^2.1.0",
+    "remark": "^14.0.2",
+    "remark-images": "^3.1.0",
+    "sharp": "^0.32.0",
+    "sweetalert2": "^11.7.3",
+    "sweetalert2-react-content": "^5.0.7"
+  }
+}

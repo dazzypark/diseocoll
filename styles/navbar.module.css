@@ -1,0 +1,180 @@
+.navbar {
+  width: 100%;
+  height: 80px;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  border-radius: 2px;
+  flex-wrap: wrap;
+  background-color: #F2F2F2;
+}
+
+.webTitle {
+  line-height: 80px;
+  padding: 0px 30px;
+  color: black;
+  font-size: 30px;
+  width: fit-content;
+  cursor: pointer;
+  flex-shrink: 0;
+  text-decoration: none;
+}
+
+.navLL {
+  list-style: none;
+  float: left;
+  padding: 0;
+  margin: 0;
+}
+
+.navLL li {
+  line-height: 80px;
+  margin: 0px 20px;
+  float: left;
+}
+
+.navLL li a {
+  text-decoration: none;
+  font-size: 20px;
+  color: #333333;
+}
+
+.ButtonDiv {
+  float: right;
+  display: grid;
+  margin: auto;
+  list-style: none;
+  justify-content: space-between;
+  grid-auto-flow: column;
+  grid-template-columns: 1fr;
+  position: absolute;
+  top: 0;
+  right: 0;
+  margin: 0px 30px;
+  flex-shrink: 0;
+}
+
+.loginBtn {
+  background-color: white;
+  float: right;
+  cursor: pointer;
+  width: auto;
+  height: 40px;
+  margin: 20px 0px;
+  border: 0px;
+  border-radius: 10px;
+  padding: 0px 10px;
+  font-family: BMDOHYEON;
+  font-weight: 1000;
+}
+
+.loginBtn:hover {
+  background-color: #c0c0c0;
+}
+
+.loginSucess {
+  font-size: 25px;
+  height: 80px;
+  overflow: auto;
+  line-height: 80px;
+  display: flex;
+  cursor: pointer;
+}
+
+.loginSucess img {
+  margin: 20px 10px;
+  border-radius: 9999px;
+  height: 40px;
+  width: 40px;
+}
+
+.Username {
+  font-size: 25px;
+  display: flex;
+  overflow: hidden;
+}
+
+.SelectMenu {
+  position: absolute;
+  right: 30px;
+  top: 80px;
+  width: 120px;
+  border: black 5px solid;
+  border-radius: 1.6px 1.6px 16px 16px;
+  z-index: 9999;
+}
+
+.SelectMenu hr {
+  margin: 0;
+  color: black;
+}
+
+.LogOut {
+  display: flex;
+  background-color: black;
+  padding: 10px 15px;
+  cursor: pointer;
+}
+
+/* 흠흠1 */
+.LogOutLabel svg {
+  color: red;
+}
+
+/* 흠흠2 */
+.MyPencilLabel svg {
+  color: white;
+}
+
+/* 흠1 */
+.LogOutLabel {
+  text-align: center;
+  color: red;
+  width: max-content;
+}
+
+/* 흠2 */
+.MyPencilLabel {
+  text-align: center;
+  color: white;
+  width: max-content;
+}
+
+.navbarLinksMobile {
+  list-style: none;
+  float: left;
+  padding: 0;
+  margin: 0;
+  width: 100%;
+  background-color: #F2F2F2;
+}
+
+.navbarLinksMobile li {
+  line-height: 80px;
+  margin: auto;
+  float: left;
+}
+
+.navbarLinksMobile li a {
+  text-decoration: none;
+  font-size: 20px;
+  color: #000000;
+}
+
+.navbarLinksMobile {
+  display: none;
+}
+
+@media (max-width: 900px) {
+  .Username {
+    display: none;
+  }
+
+  .navbarLinksMobile {
+    display: flex;
+  }
+
+  .navLL {
+    display: none;
+  }
+}

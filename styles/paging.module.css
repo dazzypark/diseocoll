@@ -1,0 +1,57 @@
+.Main {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: fit-content;
+    padding: 50px 0px 40px 0px;
+}
+
+.BackFront {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #F4F4F4;
+    border-radius: 50%;
+    box-sizing: border-box;
+    width: 32px;
+    height: 32px;
+    margin: 0px 10px;
+    cursor: pointer;
+}
+
+.BackFront svg {
+    font-weight: bold;
+    font-size: 16px;
+    color: #333333;
+}
+
+.Numbers {
+    display: flex;
+    flex-wrap: wrap;
+    /* 새로운 줄로 자동 이동 */
+    gap: 20px;
+}
+
+.Number {
+    background-color: #F4F4F4;
+    border-radius: 50%;
+    width: 32px;
+    height: 32px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+    color: #333333;
+    text-decoration: none;
+    transition: background-color 0.2s, color 0.2s;
+}
+
+.selected {
+    background-color: #333333;
+    color: #FFFFFF;
+    cursor: default;
+}
+
+.Number:not(.selected):hover {
+    background-color: #e8e8e8;
+}

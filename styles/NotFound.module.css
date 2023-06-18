@@ -1,0 +1,18 @@
+.NotFound {
+    text-align: center;
+    /* line-height: 100vh; */
+    margin-top: 40vh;
+    /* height: 100vh; */
+    font-size: 2em;
+    word-break: keep-all;
+}
+
+.GoHomeAtag {
+    text-decoration: none;
+}
+
+.GoHomeAtag:hover {
+    text-decoration: underline;
+}
+
+.NotFoundMent {}

@@ -1,0 +1,60 @@
+.SideBar {
+  border: 1px black solid;
+  /* width: 200px; */
+  /* width: min-content; */
+  width: 74px;
+  height: 100%;
+  position: fixed;
+  background-color: white;
+  transition: all ease 0.5s 0s;
+}
+
+.Menus1 {
+}
+
+.Menus1 ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+.Menus1 ul li {
+  padding: 0px 12px;
+  margin: 5px;
+  border-radius: 8px;
+  border: 1px transparent solid;
+  cursor: pointer;
+  overflow: hidden;
+}
+
+.Menus1 ul li:hover:not(svg) {
+  border: 1px grey solid;
+  background-color: #c0c0c0;
+}
+
+.Menus1 ul li a {
+  font-size: 20px;
+  text-decoration: none;
+  position: relative;
+  display: inline-flex;
+  white-space: nowrap;
+}
+
+.Menus1 ul li a span {
+  line-height: 38px;
+  margin-left: 5px;
+  font-size: 20px;
+}
+
+.Menus1 ul li a svg {
+  vertical-align: middle;
+  font-size: 25px;
+  margin: 5px 5px;
+  color: black;
+  width: 28px;
+  height: 28px;
+}
+
+/* .Menus1 ul li a svg {
+  color: black;
+} */
